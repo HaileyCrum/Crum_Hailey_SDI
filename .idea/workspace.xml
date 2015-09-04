@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62fd5980-a554-4be9-b47d-8d6ee729fd1b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoToTrainingWeek#2/JS/Week2.js" afterPath="$PROJECT_DIR$/GoToTrainingWeek#2/JS/Week2.js" />
-    </list>
+    <list default="true" id="62fd5980-a554-4be9-b47d-8d6ee729fd1b" name="Default" comment="" />
     <ignored path="Crum_Hailey_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,24 +21,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GoToTrainingWeek2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GoToTrainingWeek#2/GoToTrainingWeek2.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assignment(values_variables)/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state vertical-scroll-proportion="-3.125">
+              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Week2.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GoToTrainingWeek#2/JS/Week2.js">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assignment(values_variables)/JS/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9399293">
-              <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.21201414">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,6 +48,7 @@
       <list>
         <option value="CSS File" />
         <option value="Html5" />
+        <option value="Haileys JS Template" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -67,6 +64,8 @@
         <option value="$PROJECT_DIR$/AssociatingJS/CSS/css.css" />
         <option value="$PROJECT_DIR$/GoToTrainingWeek#2/GoToTrainingWeek2.html" />
         <option value="$PROJECT_DIR$/GoToTrainingWeek#2/JS/Week2.js" />
+        <option value="$PROJECT_DIR$/Assignment(values_variables)/index.html" />
+        <option value="$PROJECT_DIR$/Assignment(values_variables)/JS/script.js" />
       </list>
     </option>
   </component>
@@ -78,8 +77,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="467" />
-    <option name="y" value="23" />
+    <option name="x" value="728" />
+    <option name="y" value="28" />
     <option name="width" value="824" />
     <option name="height" value="663" />
   </component>
@@ -127,7 +126,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="GoToTrainingWeek#2">
+            <PATH_ELEMENT USER_OBJECT="Assignment(values_variables)">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -141,7 +140,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="GoToTrainingWeek#2">
+            <PATH_ELEMENT USER_OBJECT="Assignment(values_variables)">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -242,7 +241,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="467" y="23" width="824" height="663" extended-state="0" />
+    <frame x="728" y="28" width="824" height="663" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19053398" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -378,11 +377,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GoToTrainingWeek#2/JS/Week2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9399293">
+        <state vertical-scroll-proportion="0.0">
           <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment(values_variables)/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment(values_variables)/JS/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21201414">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
