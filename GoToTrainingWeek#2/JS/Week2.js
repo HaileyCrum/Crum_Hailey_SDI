@@ -12,10 +12,10 @@ GoTo Training Week #2
 //Ask the user for their name
 var name = prompt("Let's figure out how old you are!\n Please type in your Name.");
 //Use the variable and say Hello
-alert("Welcome" +name+"!");
+alert("Welcome"+name+"!");
 
 //Ask the user what year they were born
-var yearBorn = ("What year were you born?");
+var yearBorn = prompt("What year were you born?");
 
 //Console.log the answer to check it
 console.log(yearBorn);
@@ -30,20 +30,22 @@ var currentYear = 2015;
 var age = currentYear - yearBorn;
 
 //alert the user with their age
-alert (name+"you are" +age+"years old.");
-console.log(name+"you are" +age+ "years old.");
+alert(name+" you are " +age+" years old.");
+console.log(name+" you are "+age+" years old.");
 
 //make it complicated
 
 //figure out a future age
-var yearsMore = prompt("How many years in the future would you like to know");
+var yearsMore = prompt("How many years in the future would you like to know?");
 
 console.log(yearsMore);
 
-//Future age is going to be current age plus years in the future
+//Future age is current age + years in the future
 //cast the variable as a number when using +
-var futureAge = age+parseInt(yearsMore);
+var futureAge = age + parseInt(yearsMore);
+
 console.log(futureAge);
 
 //console.log alert the final values
-console.log("In" +yearsMore+ "years, you will be" +futureAge+ "." );
+console.log("In "+yearsMore+" years, you will be "+futureAge+"." );
+alert("In "+yearsMore+" years, you will be "+futureAge+".");
