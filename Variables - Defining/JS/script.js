@@ -18,3 +18,14 @@ var isStudent = false; //Boolean Variable
 var firstName = "Hailey";
 
 var phrase = 'I don\'t know \n You\'ll have to speak to the professor';
+
+//arays
+
+var muppetNames = ["kermit", "Miss Piggy","Gonzo", "Rizzo"]; //0,1,2,3
+
+muppetNames = [1]= "Rizzo"; //change index #1 to Rizzo
+muppetNames = [2] = "Fozzy";
+
+var num = 2;
+
+console.log(muppetNames[num]); //let me see what is in the index #1
