@@ -41,7 +41,7 @@ console.log("You have "+ totalStudents +" total students.");
 alert("You have "+ totalStudents +" total students.");
 
 //Promting the user how much they want to spend for each student and printing it out in the console
-var perStudent = prompt("How much do you want to spend per person?");
+var perStudent = prompt("How much do you want to spend per person? Please do not use $.");
 console.log("You want to spend $"+ perStudent +" per student.");
 
 //Finding total spent and printing it out in the console
