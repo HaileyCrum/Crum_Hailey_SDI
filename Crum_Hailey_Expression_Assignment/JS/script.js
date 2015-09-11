@@ -35,14 +35,14 @@ console.log(twelthGraders);
 //finding the total number of students and printing the total to the console
 var grades = [Number(firstGraders), Number(secondGraders), Number(thirdGraders), Number(fourthGraders), Number(fifthGraders), Number(sixthGraders), Number(seventhGraders), Number(eigthGraders), Number(ninthGraders), Number(tenthGraders), Number(eleventhGraders), Number(twelthGraders)];
 var totalStudents = grades[0] + grades[1] + grades[2] + grades[3] + grades[4] + grades[5] + grades[6] + grades[7] + grades[8] + grades[9] + grades[10] + grades[11];
-console.log("you have "+ totalStudents +" total students.");
+console.log("You have "+ totalStudents +" total students.");
 
 //Alerting the user how many students the have
 alert("You have "+ totalStudents +" total students.");
 
 //Promting the user how much they want to spend for each student and printing it out in the console
 var perStudent = prompt("How much do you want to spend per person?");
-console.log(" You want to spend $"+ perStudent +" per student.");
+console.log("You want to spend $"+ perStudent +" per student.");
 
 //Finding total spent and printing it out in the console
 var totalSpent = totalStudents * perStudent;
@@ -66,6 +66,6 @@ alert("You will spend a total of $" + totalSpent +" on Easter Baskets for your s
 //1 script.js:29:1
 //1 script.js:31:1
 //1 script.js:33:1   all lines for grades were correct with 1
-//you have 12 total students. script.js:38:1    there are 12 students so this is correct
-// you want to spend $15 per student. script.js:45:1    $15 per Student so this is correct
-// You will spend a total of $180 on Easter Baskets for your students.   This is also correct
+//You have 12 total students. script.js:38:1    there are 12 students so this is correct
+//You want to spend $15 per student. script.js:45:1    $15 per Student so this is correct
+//You will spend a total of $180 on your students Easter Baskets.   This is also correct
