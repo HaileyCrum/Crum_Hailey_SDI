@@ -3,9 +3,10 @@ Hailey Crum
 Expression Assignment
 09/10/2015
  */
-
+//Alerting the user that I want to help them calculate how much it will cost to buy easter baskets for every student
 alert("Hello, I am going to help you find out how much it will cost for all the students in school to get an easter basket.");
 
+//Prompting the user how many students are in each grade and printing it out in the console
 var firstGraders =prompt("How many first graders?");
 console.log(firstGraders);
 var secondGraders =prompt("How many second graders?");
@@ -31,11 +32,24 @@ console.log(eleventhGraders);
 var twelthGraders = prompt("How many twelth graders?");
 console.log(twelthGraders);
 
+//finding the total number of students and printing the total to the console
+var grades = [Number(firstGraders), Number(secondGraders), Number(thirdGraders), Number(fourthGraders), Number(fifthGraders), Number(sixthGraders), Number(seventhGraders), Number(eigthGraders), Number(ninthGraders), Number(tenthGraders), Number(eleventhGraders), Number(twelthGraders)];
+var totalStudents = grades[0] + grades[1] + grades[2] + grades[3] + grades[4] + grades[5] + grades[6] + grades[7] + grades[8] + grades[9] + grades[10] + grades[11];
+console.log("you have "+ totalStudents +".");
 
-var totalStudents = Number(firstGraders) + Number(secondGraders) + Number(thirdGraders) + Number(fourthGraders) + Number(fifthGraders) + Number(sixthGraders) + Number(seventhGraders) + Number(eigthGraders) + Number(ninthGraders) + Number(tenthGraders) + Number(eleventhGraders) + Number(twelthGraders);
-console.log(totalStudents);
-Alert("You have "+ totalStudents +"total studens.");
+//Alerting the user how many students the have
+alert("You have "+ totalStudents +" total students.");
 
+//Promting the user how much they want to spend for each student and printing it out in the console
 var perStudent = prompt("How much do you want to spend per person?");
-console.log("$" + perStudent +);
-console.log 
+console.log("$" + perStudent + ".");
+
+//Finding total spent and printing it out in the console
+var totalSpent = totalStudents * perStudent;
+console.log("$" + totalSpent +".");
+
+//Alerting user how much the will spend on easter baskets
+alert("You will spend a total of $" + totalSpent +" on Easter Baskets for your students.");
+
+
+
