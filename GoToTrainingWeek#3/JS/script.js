@@ -89,7 +89,7 @@ GoToWeek#3
 // increment of change){ code to run for each time we loop}
 
  for(var i =0; i<bowlOfFruit.length; i++){
-     console.log("Inside the loop, i ="+i);{
+     console.log("Inside the loop, i ="+i);
      console.log(bowlOfFruit[i]);
      //Test if the array item is pear
      if(bowlOfFruit[i]==="pear"){
@@ -98,7 +98,31 @@ GoToWeek#3
          } else{
             console.log("Fruit is not a pear!");
          }
-
      }
 
-     console.log("The total number of pears in the bowl is "+pearNumber);
+
+ console.log("The total number of pears in the bowl is "+pearNumber);
+
+
+//validate prompts
+ var name= prompt("What is your name?");
+ //Test to see if the variable is blank
+ if(name ===""){
+     //The User left it blank
+     //reprompt the user using the SAME variable
+     name = prompt("Please do not leave blank.\n What is your name?");
+ }
+
+ var num1 = prompt("Please type in a number");
+
+ //Test to see if it is a number
+
+ //is NaN(it to test)
+ console.log(isNaN("cat")); //true
+ console.log(isNaN(7)); //returns false
+
+ if(isNaN(num1)){
+    //reprompt the user
+     num1 = prompt("Please only use numbers. \n Type in a number.");
+
+ }
