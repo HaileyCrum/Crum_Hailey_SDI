@@ -40,10 +40,50 @@ GoToWeek#3
  //prompts always return strings!!
 
  if(bowlOfFruit[0]==="pear"){
-     //This code will run if truee
+     //This code will run if true
      //Add 1 to the total numbers of pears
      console.log("this item is a pear!");
      totalNumPears++; //totalNumPears = totalNumPears + 1;
  } else{
+     //This code will run if false
      console.log("This fruit is not a pear!");
  }
+
+ if(bowlOfFruit[1]==="pear"){
+     //This code will run if true
+     //Add 1 to the total numbers of pears
+     console.log("this item is a pear!");
+     totalNumPears++; //totalNumPears = totalNumPears + 1;
+ } else{
+     //This code will run if false
+     console.log("This fruit is not a pear!");
+ }
+
+ if(bowlOfFruit[2]==="pear"){
+     //This code will run if true
+     //Add 1 to the total numbers of pears
+     console.log("this item is a pear!");
+     totalNumPears++; //totalNumPears = totalNumPears + 1;
+ } else{
+     //This code will run if false
+     console.log("This fruit is not a pear!");
+ }
+ if(bowlOfFruit[3]==="pear"){
+     //This code will run if true
+     //Add 1 to the total numbers of pears
+     console.log("this item is a pear!");
+     totalNumPears++; //totalNumPears = totalNumPears + 1;
+ } else{
+     //This code will run if false
+     console.log("This fruit is not a pear!");
+ }
+ console.log("There are "+totalNumPears+" pear(s) in the fruit bowls!");
+
+ //Create another variable to track pears
+ var pearNumber = 0;
+
+ //Create a loop for repetitive code
+
+ //For loop structure
+
+ 
