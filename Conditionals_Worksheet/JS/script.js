@@ -25,12 +25,14 @@ Conditionals Worksheet
      var fahrenheit = (temp * 2) + 30;
      //Print to the Console "Your temperature in Fahrenheit is..."
      console.log("You temperature in fahrenheit is "+ fahrenheit +".");
+     //tell the user the temperature in fahrenheit
      alert("You temperature in fahrenheit is "+ fahrenheit +".");
  }else{
      //Conversion to Celsius
      var Celsius = (temp - 32) * 5/9;
      //Print to the console "Your temperature in Celsius..."
      console.log("Your temperature in Celsius is " + Celsius +".");
+     //Tell the user the temperature in Celsius
      alert("Your temperature in Celsius is " + Celsius +".");
  }
  alert("DISCLAIMER:  Temperatures may be off by a few degrees.");
@@ -38,10 +40,69 @@ Conditionals Worksheet
 
  //GROUP 2: Multiple Results
     //Grade Calculator
+ /* Grade Scale
+ A+ = 95–100
+ A  = 90-94
+ B+ = 85-89
+ B  = 80-84
+ C+ = 76-79
+ C  = 73-75
+ D  = 70-72
+ F  =  0-69
+ */
+
+ //Alert the user that I'm going to help them determine their  Letter grade
+ alert("Hello, I would like to help your grade for you. (Full Sail Grading Scale)");
+
+ //Ask the user what their grade percentage is
+ var grade = prompt("What is your grade percentage. Please do not use the Percent symbol.");
+
+ if(grade >= 95){
+     //print to the console the grade letter
+    console.log("You have a "+ grade +"%, which means you have an A+ in the class.");
+     //Tell the use the grade letter
+     alert("You have a "+ grade +"%, which means you have an A+ in the class.");
+     } else if(grade >= 90 && grade <95){
+     //print to the console the grade letter
+     console.log("You have a "+ grade +"%, which means you have an A in the class.");
+     //Tell the use the grade letter
+     alert("You have a "+ grade +"%, which means you have an A in the class.");
+     } else if(grade >= 85 && grade < 89){
+     //print to the console the grade letter
+     console.log("You have a "+ grade +"%, which means you have a B+ in the class.");
+     //Tell the use the grade letter
+     alert("You have a "+ grade +"%, which means you have a B+ in the class.");
+     } else if(grade >= 80 && grade < 84) {
+     //print to the console the grade letter
+     console.log("You have a "+ grade +"%, which means you have a B in the class.");
+     //Tell the use the grade letter
+     alert("You have a "+ grade +"%, which means you have a B in the class.");
+     } else if(grade >= 76 && grade < 79){
+     //print to the console the grade letter
+     console.log("You have a "+ grade +"%, which means you have a C+ in the class.");
+     //Tell the use the grade letter
+     alert("You have a "+ grade +"%, which means you have a C+ in the class.");
+     } else if(grade >= 73 && grade < 75){
+     //print to the console the grade letter
+     console.log("You have a "+ grade +"%, which means you have a C in the class");
+     //Tell the use the grade letter
+     alert("You have a "+ grade +"%, which means you have a C in the class");
+     } else if(grade >= 70 && grade < 72) {
+     //print to the console the grade letter
+     console.log("You have a " + grade + "%, which means you have a D in the class.");
+     //Tell the use the grade letter
+     alert("You have a " + grade + "%, which means you have a D in the class.");
+ }else{
+     //print to the console the grade letter
+     console.log("You have a  " + grade + "%, which means you have an F in the class.");
+     //Tell the use the grade letter
+     alert("You have a  " + grade + "%, which means you have an F in the class.");
+         }
+
 
  //Group 3: Multiple Conditions
     //Movie Ticket Price
-
+ //Alert the user that you wanna help determine ticket price
  alert("Hello, I'd like to help you determine how much your ticket price will be.");
 //Define senior age
  var senior = 55;
