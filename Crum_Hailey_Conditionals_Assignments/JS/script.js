@@ -43,55 +43,44 @@ Conditionals Assignment
  var libra;
  //assigning variable
  var scorpio;
- // we don't end up needing this variable: var sagittarius;
+ //assignment variable
+ var sagittarius;
 
  //Ternary coditional for variable
     capricorn = ( q1 === "January" && q2 <= 19 ^ q2 >= 20) ? (alert("You are a Capricorn!"),  console.log("You are a capricorn")) : (alert("You are an Aquarius!"), console.log("You are an Aquarius!"));
 
- //Alert the user of their Zodiac Sign
-    alert(capricorn);
  //Ternary coditional for variable
-    aquarius = (q1 === "February" && q2 <= 18 ^ q2 >= 19) ? "You are an Aquarius!" : "You are a Pisces!";
- //Print to the console users Zodiac Sign
-    console.log(aquarius);
+    aquarius = (q1 === "February" && q2 <= 18 ^ q2 >= 19) ? (alert("You are an Aquarius!"), console.log("You are an Aquarius!")) : (alert("You are a Pisces!"), console.log("You are a Pisces!"));
+
  //Ternary conditional for variable
-    pisces = (q1 === "March" && q2 <= 20 ^ q2 >= 21) ? "You are a Pisces!" : "You an Aries";
- //Print to the console users Zodiac Sign
-    console.log(pisces);
+    pisces = (q1 === "March" && q2 <= 20 ^ q2 >= 21) ? (alert("You are a Pisces!"), console.log("You are a Pisces!")) : (alert("You are an Aries!"), console.log("You are an Aries!"));
+
  //Ternary conditional for variable
-    aries = (q1 === "April" && q2 <= 19 ^ q2 >= 20) ? "You are an Aries!" : "You are a Taurus!";
- //Print to the console users Zodiac Sign
-    console.log(aries);
+    aries = (q1 === "April" && q2 <= 19 ^ q2 >= 20) ? (alert("You are an Aries!"), console.log("You are an Aries!")) : (alert("You are an Taurus!"), console.log("You are a Taurus!"));
+
  //Ternary conditional for variable
-    taurus = (q1 === "May" && q2 <= 20 ^ q2 >= 21) ? "You are a Taurus!": "You area Gemini!";
- //Print to the console users Zodiac Sign
-    console.log(taurus);
+    taurus = (q1 === "May" && q2 <= 20 ^ q2 >= 21) ? (alert("You are a Taurus!"), console.log("You are a Taurus!")) : (alert("You are a Gemini!"), console.log("You are a Gemini!"));
+
  //Ternary conditional for variable
-    gemini = (q1 === "June" && q2 <= 20^ q2 >= 21) ? "You are a Gemini!" : "You are a Cancer!";
- //Print to the console users Zodiac Sign
-    console.log(gemini);
+    gemini = (q1 === "June" && q2 <= 20^ q2 >= 21) ? (alert("You are a Gemini!"), console.log("You are a Gemini!")) : (alert("You are a Cancer!"), console.log("You are a Cancer!"));
+
  //Ternary conditional for variable
-    cancer = (q1 === "July" && q2 <= 22 ^ q2 >= 23) ? "You are a Cancer!" : "You are a Leo!";
- //Print to the console users Zodiac Sign
-    console.log(cancer);
+    cancer = (q1 === "July" && q2 <= 22 ^ q2 >= 23) ? (alert("You are a Cancer!"), console.log("You are a Cancer!")) : (alert("You are a Leo!"), console.log("You are a Leo!"));
+
  //Ternary conditional for variable
-    leo = (q1 === "August" && q2 <= 22  ^ q2 >= 23 ) ? "You are a leo!" : "You are a Virgo!";
- //Print to the console users Zodiac Sign
-    console.log(leo);
+    leo = (q1 === "August" && q2 <= 22  ^ q2 >= 23 ) ? (alert("You are a Leo!"), console.log("You are a Leo!")) : (alert("You are a Virgo!"), console.log("You are a Virgo!"));
+
 // Ternary for conditional for variable
-    virgo = (q1 === "September" && q2 <= 22 ^ q2 >= 23 ) ? "You are a virgo" : "You are a Libra!";
- //Print to the console users Zodiac Sign
-    console.log(virgo);
- //Ternary conditional for variable
-    libra = (q1 === "October" && q2 <= 22 ^ q2 >= 23) ? "You are a Libra!" : "You are a Scorpio!";
- //Print to the console users Zodiac Sign
-    console.log(libra);
- //Ternary conditional for variable
-    scorpio  = (q1 === "November" && q2 <= 21 ^ q2 >= 22) ? "You are a Scorpio!" : "You are a Sagittarius!";
- //Print to the console users Zodiac Sign
-    console.log(scorpio);
+    virgo = (q1 === "September" && q2 <= 22 ^ q2 >= 23 ) ? (alert("You are a Virgo!"), console.log("You are a Virgo!")) : (alert("You are a Libra!"), console.log("You are a Libra!"));
 
+ //Ternary conditional for variable
+    libra = (q1 === "October" && q2 <= 22 ^ q2 >= 23) ? (alert("You are a Libra!"), console.log("You are a Libra!")) : (alert("You are a Scorpio!"), console.log("You are a Scorpio!"));
 
+ //Ternary conditional for variable
+    scorpio  = (q1 === "November" && q2 <= 21 ^ q2 >= 22) ? (alert("You are a Scorpio!"), console.log("You are a Scorpio!")) : (alert("You are a Sagittarius!"), console.log("You are a Sagittarius!"));
+
+//Ternary conditional for variable
+    sagittarius = (q1 === "December" && q2 <= 21 ^ q2 >= 22) ? (alert("You are a Sagittarius!"), console.log("You are a Sagittarius!")) : (alert("You are a Capricorn!"), console.log("You are a Capricorn!"));
 
 
 
