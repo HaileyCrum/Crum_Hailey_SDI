@@ -26,9 +26,6 @@ GoToTraining Week #4
      }
  }
 
-
-
-
  /*
  Basic Structure of a While loop
 
@@ -40,3 +37,26 @@ GoToTraining Week #4
 
  }
   */
+
+ //Prompt the user for max number
+ var maxNum = prompt("What is the max number:");
+
+//Validate directly after prompt.
+while(maxNum===""|| isNaN(maxNum)){
+    maxNum = prompt("Please do not use blank and only use numbers. \n What is the Max Number?");
+}
+ //What if I wanted to validate words
+ //Ask a yes or no question
+
+ var happy = prompt("Are you happy today?");
+ happy = happy.toLowerCase();
+
+ while(happy !="yes" && happy != "no" && happy != "maybe"){
+     happy = prompt("Please only use Yes of no. \n Are you happy today?");
+
+ }
+
+
+
+
+
