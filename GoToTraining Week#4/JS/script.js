@@ -56,7 +56,27 @@ while(maxNum===""|| isNaN(maxNum)){
 
  }
 
+ //Funtion call - "go button that runs the function
+ //arguments go inside the function call ()
+ //create a variable to CATCH the returned value
+var returnedValue = randomizer(minNum, maxNum);
 
+ console.log("You random number between "+ minNum +" and "+ maxNum +" is "+returnedValue  +". ");
+
+//Create a function to calculate the random number
+ //parameters go inside parentheses
+ //Paremeter are temperary variables that can only acess the inside the fuction
+ //They catch the arguments that are thrown into the function.
+ //It makes the code more flexible
+ //We DO NOT want to use the main code variable inside the functions.
+ function randomizer(min, max){
+    //Generate our random number
+     var randomNumber =Math.round (Math.random()*(min-max)+Number(min));
+     //console.log(randomNumber);
+
+     //return the value to our main code
+    return randomNumber;
+ }
 
 
 
