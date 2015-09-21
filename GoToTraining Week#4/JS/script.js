@@ -78,5 +78,32 @@ var returnedValue = randomizer(minNum, maxNum);
     return randomNumber;
  }
 
+ //wanted 15 random numbers
+ //Let's use a for loop
 
+for(var i = 0; i< 15; i++){
+
+    //15 DIFFERENT results
+    console.log(randomizer(minNum,maxNum));
+}
+
+//The browser can not see an anonymous function until it gets to it.
+
+ /*var anon = function(){
+     alert("I'm anonymous");
+ }
+anon();
+     */
+
+ //Create a anon function the adds to numbers together
+ //var functionName = function (){};
+
+ var addNums = function(num1, num2){
+     var total = Number(num1) + Number(num2);
+     return total;
+ }
+
+ //function call
+ var totalReturned = addNums(num1 , num2);
+ console.log(totalReturned+" is the added total.");
 
