@@ -39,6 +39,10 @@ var circle = answer(radius,pi);
  //Print to the console
  console.log("The circumference of the cirle is "+ circle +".")
 alert("The circumference of the circle is "+ circle +".");
+
+
+
+
  /*
  Problem #2
  Stung
