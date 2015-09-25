@@ -39,7 +39,7 @@ Function Assignment
   //returned value
   return area;
  }
- //Function returned
+ //calling function
  var areaOfAParallelogram = findArea(height,base);
  //print to console total bee stings
  console.log("The area of the parallelogram is "+ areaOfAParallelogram+".");
@@ -56,4 +56,69 @@ Function Assignment
 base = 80
 height = 200
 80*200 = 16000
+Everthing is working correctly
   */
+ //tell the user your intention
+alert("Hello, I can help you find the area of a trapesoid.");
+ //Ask the user for Top Base
+ var base1= prompt("What is the bottom base of the trapesoid?");
+ //validate
+ while(base1=== "" || isNaN(base1)) {
+     //Reprompt the user
+     if (base1 === "") {
+         base1 = prompt("Please do not leave blank. \n What is the bottom base of a Trapezoid?");
+     } else if (isNaN(base1)) {
+         base1 = prompt("Please only use numbers. \n What is the bottom base of a Trapezoid?");
+     }
+ }
+
+   //Ask the user for the Bottom Base
+ var base2 = prompt("What is the top base of the trapezoid?")
+   //validate
+while(base2=== "" || isNaN(base2)) {
+    //Reprompt the user
+    if (base2 === "") {
+        base2 = prompt("Please do not leave blank. \n What is the top base of the Trapezoid?");
+    } else if (isNaN(base2)) {
+        base2 = prompt("Please only use numbers. \n What is the top base of the Trapezoid?");
+    }
+}
+        var heightOfTrapesoid = prompt("What is the height of a trapezoid?");
+
+        while (heightOfTrapesoid === "" || isNaN(heightOfTrapesoid)) {
+            //Reprompt the user
+            if (heightOfTrapesoid === "") {
+                heightOfTrapesoid = prompt("Please do not leave blank. \n What is the top height of the Trapezoid?");
+            } else if (isNaN(heightOfTrapesoid)) {
+                heightOfTrapesoid = prompt("Please only use numbers. \n What is the height of the Trapezoid?");
+            }
+        }
+ //calling on the function
+        var areaOfATrapezoid = trapezoid(heightOfTrapesoid, base1, base2);
+
+        console.log("The area of the trapezoid is "+ areaOfATrapezoid + ".");
+        alert("The area of the trapezoid is "+ areaOfATrapezoid +".");
+//create function
+        function trapezoid(h, b1, b2) {
+            var traparea = Number(h) / 2 * (Number(b1) * Number(b2));
+           // console.log(traparea);
+            //return the value to our main code
+            return traparea;
+        }
+
+/*
+Test one
+base 1 = 15
+base 2 = 12
+height = 9
+The area of the trapezoid is 810
+Test two
+base 1 = cat reprompted
+base 1 =     reprompted
+base 1 = 18
+base 2 = dog reprompted
+base 2 = 12
+height = 8
+are of trapezoid is 864
+
+ */
