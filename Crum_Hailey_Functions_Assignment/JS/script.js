@@ -10,7 +10,7 @@ Function Assignment
  //alert the user of intention
  alert("Hello, I can help you find the area of a parallelogram.");
  //ask the user for the base
- var  base = prompt("what is the base of your parallelogram? \n Please enter numbers only.");
+ var  base = prompt("What is the base of the parallelogram? \n Please enter numbers only.");
 
  //validate
  while(base=== "" || isNaN(base))
@@ -22,13 +22,13 @@ Function Assignment
  }
 
  //Ask the user for the height
- var height= prompt("What is the height of your parallelogram?");
+ var height= prompt("What is the height of the parallelogram?");
 
   //validate
   while(height=== "" || isNaN(height)) {
       //Reprompt the user
       if (height === "") {
-          height = prompt("Please do not leave blank. \n What is the height   of the parallelogram?");
+          height = prompt("Please do not leave blank. \n What is the height of the parallelogram?");
       } else if (isNaN(height)) {
           height = prompt("Please only use numbers. \n What is the height of the parallelogram?");
       }
@@ -42,13 +42,18 @@ Function Assignment
  //Function returned
  var areaOfAParallelogram = findArea(height,base);
  //print to console total bee stings
- console.log("The area of a parallelogram is "+ areaOfAParallelogram+".");
+ console.log("The area of the parallelogram is "+ areaOfAParallelogram+".");
  //alert the user of the total bee stings
- alert("The area of a parallelogram is "+ areaOfAParallelogram +".");
+ alert("The area of the parallelogram is "+ areaOfAParallelogram +".");
 
  /*
+ First Attempt
  base = 20
  height = 30
  area = 600
-
+ 20*30=600
+ Second Attempt
+base = 80
+height = 200
+80*200 = 16000
   */
